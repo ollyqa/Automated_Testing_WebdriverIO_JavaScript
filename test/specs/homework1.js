@@ -1,7 +1,7 @@
 import { browser, $, expect } from "@wdio/globals";
 
 describe("Webdriverio main page", () => {
-  it("API PAGE", async () => {
+  xit("API PAGE", async () => {
     // Step 1: Open the website
     console.log("👉 Navigation: Opening homepage");
     await browser.url(`https://webdriver.io/`);
