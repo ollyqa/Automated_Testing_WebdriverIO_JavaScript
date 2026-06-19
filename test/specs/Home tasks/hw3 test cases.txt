@@ -1,4 +1,4 @@
-☑️ 1. Title: SighUp for GitHub
+☑️ 1. Title: Open SignUp page
 💎 Precondition: ...
 
 🔸 Go to https://github.com
