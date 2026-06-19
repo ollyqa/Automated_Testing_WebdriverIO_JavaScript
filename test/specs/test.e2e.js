@@ -1,3 +1,4 @@
+import assert from "assert/strict";
 import { browser, expect } from "@wdio/globals";
 
 describe("Webdriverio main page", () => {
@@ -143,7 +144,7 @@ describe("Webdriverio main page", () => {
     console.log("Is get started button enabled: " + isEnabled);
   });
 
-  it("should show if an element is focused", async () => {
+ xit("should show if an element is focused", async () => {
     await browser.url(`https://webdriver.io/`);
 
     const getStartedButton = await $('button[href="/docs/gettingstarted"]');
@@ -243,11 +244,17 @@ describe("Webdriverio main page", () => {
   xit("should get html for certain elements", async () => {
     await browser.url(`https://webdriver.io`);
 
-    const outerHTML = await $('.dropdown__menu').getHTML()
+    /* const outerHTML = await $(".dropdown__menu").getHTML();
     console.log("outerHTML: " + outerHTML);
 
-    const innerHTML = await $(".dropdown__menu").getHTML(false)
-    console.log("innerHTML: " + innerHTML)
+    const innerHTML = await $(".dropdown__menu").getHTML(false);
+    console.log("innerHTML: " + innerHTML);*/
+    assert(1 === 1, "1 not equal 1");
+    assert(1 === "hello", "1 not equal hello");
+    //Порівнює та показує повідомлення в терміналі, якщо не рівне
   });
   // Взяти значення ззовні та всередині тегу
 });
+
+//describe.skip робить всі тести неактивними, xit абоxit.skip робить цей конкретний тест неактивним
+//it.only запустить тільки цей тест, а інші - ні

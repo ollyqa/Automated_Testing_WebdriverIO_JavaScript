@@ -1,6 +1,6 @@
-/*import { browser, $, expect } from "@wdio/globals";
+import { browser, $, expect } from "@wdio/globals";
 
-describe("Webdriverio main page", () => {
+describe.skip("Webdriverio main page", () => {
   it("should navigate to webdriver.io", async () => {
     await browser.url("https://webdriver.io");
     console.log("1. Зайшли на сайт");
@@ -70,4 +70,3 @@ describe("Webdriverio main page", () => {
     await browser.pause(2000);
   });
 });
-*/

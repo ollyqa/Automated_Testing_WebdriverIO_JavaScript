@@ -1,0 +1,15 @@
+
+
+☑️1. Test suite (smoke)
+💎Login page
+💎Registration page
+💎Payment page
+
+☑️2. Test suite (search page)
+💎search by keywords
+💎serach with different filters
+
+☑️3. Test suite (regression)
+💎All suites
+
+Test suit - a set of test cases by type.

@@ -1,0 +1,13 @@
+☑️ Title: sighIn to GitHub with not valid credentials
+💎 Precondition: ...
+
+🔸 Go to https://github.com
+🔸 Click "Sign in" button
+🔸 Clear Login and password inputs
+🔸 Click Login button
+
+📍 Expected result
+    "Incorrect username or password." message was displayed.
+    User stays on the same page.
+
+

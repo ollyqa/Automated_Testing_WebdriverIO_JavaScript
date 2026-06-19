@@ -1,0 +1,56 @@
+☑️ 1. Title: SighUp for GitHub
+💎 Precondition: ...
+
+🔸 Go to https://github.com
+🔸 Enter email in input field
+🔸 Click "Sign up for GitHub" button
+
+📍 Expected result
+User is on the "Sign up for GitHub" page
+
+-------------------------------------------
+
+☑️ 2. Title: Check search for GitHub
+💎 Precondition: ...
+🔸 Go to https://github.com
+🔸 Click on search field
+🔸 Enter test data ("car") in search field
+🔸 Click Enter on the keybord
+
+📍 Expected result
+The page with entered text repositories is displayed on the page. The entered text is exists in URL.
+
+-------------------------------------------
+☑️ 3. Title: SignIn with invalid data
+💎 Precondition: ...
+🔸 Go to https://github.com
+🔸 Click the Sign in button
+🔸 Enter valid username
+🔸 Enter invalid password
+🔸 Click Sign in button
+
+📍 Expected result
+The error message displays:  Incorrect username or password.
+
+-------------------------------------------
+
+☑️ 4. Title: Sign out from all accounts
+💎 Precondition: User is logged in. User is on the home page.
+🔸 Click on the avatar in right corner
+🔸 Click Sign out button
+🔸 Click Sign out from all accounts button
+🔸 
+
+📍 Expected result
+User is on the main github page with h1 "The future of building happens together".
+
+-------------------------------------------
+
+☑️ 5. Title: Click the Developer API link
+💎 Precondition: ...
+🔸 Go to https://github.com
+🔸 Scroll down the page
+🔸 Click the "Developer API" link
+
+📍 Expected result
+User is on the page with h1 "About building integrations".

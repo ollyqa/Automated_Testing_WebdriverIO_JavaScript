@@ -1,6 +1,6 @@
 import { browser, expect } from "@wdio/globals";
 
-describe("Webdriverio main page", () => {
+describe.skip("Webdriverio main page", () => {
   it("should navigate to webdriver.io", async () => {
     await browser.url("https://webdriver.io");
     console.log("1. Зайшли на сайт");
@@ -55,11 +55,15 @@ describe("Webdriverio main page", () => {
     await browser.pause(2000);
   });
 
-  it("should get innerHTML of Protocol Commands", async () => {
+  it("should get HTML of Protocol Commands", async () => {
     await browser.url("https://webdriver.io/docs/api");
     const protocolLink = await $('a[href="/docs/api/webdriver"]');
     const innerHTML = await protocolLink.getHTML(false);
     console.log("7. innerHTML: " + innerHTML);
+
+    const outerHTML = await $('a[href="/docs/api/webdriver"]').getHTML();
+    console.log("7. outerHTML: " + outerHTML);
+
     await browser.pause(2000);
   });
 
