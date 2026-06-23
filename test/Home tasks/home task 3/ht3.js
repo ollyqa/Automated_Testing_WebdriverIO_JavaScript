@@ -132,7 +132,6 @@ describe("GitHub main page", () => {
     );
 
     // Scroll down the page to the Developer API link
-    await apiLink.scrollIntoView();
 
     // Click the "Developer API" link
     await apiLink.click();
