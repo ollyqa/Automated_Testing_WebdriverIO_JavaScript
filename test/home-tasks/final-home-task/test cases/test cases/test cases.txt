@@ -1,0 +1,92 @@
+TC №1
+☑️ Title: Sign up to GitHub
+💎 Precondition: ...
+
+🔸 Go to https://github.com
+🔸 Click "Sign up" button
+🔸 Enter email
+🔸 Enter password
+🔸 Enter username
+🔸 Select country
+🔸 Click checkbox "GitHub Copilot"
+🔸 Click on Create account button
+
+📍 Expected result
+    The message "Confirm your email address" is displayed on the page
+
+-------------------------------------------------
+
+TC №2
+☑️ Title: Check all GitHub solutions
+💎 Precondition: ...
+
+🔸 Go to https://github.com
+🔸 Scroll down to the link "View all solutions"
+🔸 Check that link is visible
+🔸 Click on link
+🔸 Check the text title "AI-powered platform solutions to solve your company’s challenges"
+🔸 Click on "Start a free trial" link
+🔸 Click on "Enterprize cloud" link
+🔸 Check the text title "Create your free account"
+
+📍 Expected result
+    User is on the github sign up page
+
+-------------------------------------------------
+
+TC №3
+☑️ Title: Subscribe for newsletter in GitHub
+💎 Precondition: ...
+
+🔸 Go to https://github.com
+🔸 Scroll down to footer (ScrollIntoView)
+🔸 Check button "Subscribe" is visible
+🔸 Check button is clickable
+🔸 Click on button
+🔸 Check the url: https://github.com/newsletter
+🔸 Check the H1 "Get our developer newsletter" is displayed
+🔸 Enter Work email
+🔸 Select country
+🔸 Click the checkbox
+🔸 Click on the 'Subscribe' button
+🔸 Check the heading "Thanks for subscribing!"
+
+📍 Expected result
+   The "Thanks for subscribing!" heading is displayed on the page
+
+-------------------------------------------------
+
+TC №4
+☑️ Title: Check input search in GitHub
+💎 Precondition: ...
+
+🔸 Go to https://github.com
+🔸 Click the input search
+🔸 Enter "act"
+🔸 Click Enter button
+🔸 Check entered data is displayed in all repositories names
+🔸 Check entered data is displayed in page URL
+
+
+📍 Expected result
+The entered data is displayed in repositories names and page url
+
+-------------------------------------------------
+
+TC №5
+☑️ Title: Compare features in GitHub
+💎 Precondition: ...
+
+🔸 Go to https://github.com
+🔸 Click the "Pricing" link
+🔸 Check the text "Try the Copilot-powered platform" is displayed
+🔸 Scroll down to 'Compare all features' link
+🔸 Click the link
+🔸 Check the title "Compare features"  is displayed
+
+
+📍 Expected result
+The title "Compare features"  is displayed
+
+
+
